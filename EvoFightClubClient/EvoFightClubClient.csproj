@@ -63,8 +63,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CombatBlock.cs" />
     <Compile Include="FightClub.cs" />
     <Compile Include="Fighter.cs" />
+    <Compile Include="Human.cs" />
+    <Compile Include="ICombatable.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
