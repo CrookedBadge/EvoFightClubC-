@@ -12,8 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EvoFightClub.Core;
 
-namespace EvoFightClubClient
+namespace EvoFightClub.Client
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

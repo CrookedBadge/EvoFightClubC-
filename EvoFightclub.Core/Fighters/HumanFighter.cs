@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EvoFightClubClient
+namespace EvoFightClub.Core
 {
     
     public class HumanFighter : Human, ICombatable 

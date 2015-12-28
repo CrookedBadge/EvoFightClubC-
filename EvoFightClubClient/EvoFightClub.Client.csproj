@@ -7,8 +7,8 @@
     <ProjectGuid>{5805D2BA-087F-4F92-8C96-63DD5DB8E04B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EvoFightClubClient</RootNamespace>
-    <AssemblyName>EvoFightClubClient</AssemblyName>
+    <RootNamespace>EvoFightClub.Client</RootNamespace>
+    <AssemblyName>EvoFightClub.Client</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -63,11 +63,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CombatBlock.cs" />
-    <Compile Include="FightClub.cs" />
-    <Compile Include="Fighter.cs" />
-    <Compile Include="Human.cs" />
-    <Compile Include="ICombatable.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -99,6 +94,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EvoFightclub.Core\EvoFightclub.Core.csproj">
+      <Project>{19962773-83ab-4b97-82d9-82ec6ea95ead}</Project>
+      <Name>EvoFightclub.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

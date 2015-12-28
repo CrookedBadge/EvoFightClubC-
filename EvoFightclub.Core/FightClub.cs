@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 
-namespace EvoFightClubClient
+namespace EvoFightClub.Core
 {
-    class FightClub
+    public class FightClub
     {
-        public List<Fighter> fighters { get; }
+        public List<HumanFighter> fighters { get; }
         private string log;
 
         public FightClub(ref string log)

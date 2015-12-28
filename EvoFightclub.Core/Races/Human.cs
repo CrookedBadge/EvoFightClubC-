@@ -1,4 +1,4 @@
-﻿namespace EvoFightClubClient
+﻿namespace EvoFightClub.Core
 {
     public class Human
     {
