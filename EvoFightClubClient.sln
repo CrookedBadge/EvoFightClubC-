@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoFightClub.Client", "EvoFightClubClient\EvoFightClub.Client.csproj", "{5805D2BA-087F-4F92-8C96-63DD5DB8E04B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoFightClub.Client", "EvoFightClub.Client\EvoFightClub.Client.csproj", "{5805D2BA-087F-4F92-8C96-63DD5DB8E04B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoFightClub.Core", "EvoFightclub.Core\EvoFightClub.Core.csproj", "{19962773-83AB-4B97-82D9-82EC6EA95EAD}"
 EndProject
