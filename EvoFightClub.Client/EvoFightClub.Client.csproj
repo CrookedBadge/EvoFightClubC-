@@ -99,6 +99,7 @@
     <ProjectReference Include="..\EvoFightclub.Core\EvoFightClub.Core.csproj">
       <Project>{19962773-83ab-4b97-82d9-82ec6ea95ead}</Project>
       <Name>EvoFightClub.Core</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
